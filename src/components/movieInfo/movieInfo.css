@@ -1,0 +1,47 @@
+.container-movieinfo{
+    width: 100%;
+    min-height: 60vh;
+    background-position: center;
+    position: relative;
+}
+.movieinfo-items{
+    width: 60vw;
+    position: absolute;
+    bottom: 15%;
+    left: 5%;
+}
+.playStop{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    cursor: pointer;
+    font-size: xx-large;
+}
+.playStop:hover{
+    color: rgba(255, 255, 255, 0.75);
+}
+.movie-link{
+    text-decoration: none;
+}
+.link-text:hover{
+    color: rgba(255, 255, 255, 0.75);
+}
+.youtube-container{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 10;
+}
+.close-trailer{
+    position: absolute;
+    right: 2rem;
+    top: 2rem;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    cursor: pointer;
+    font-size: xx-large;
+    position: absolute;
+    z-index: 11;
+    
+}

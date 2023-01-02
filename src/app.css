@@ -1,0 +1,15 @@
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 5em;
+    font-family: fantasy;
+    color: rgb(195, 166, 0);
+}
+@media screen and (max-width: 576px) {
+    h1 {
+        font-size: 3em;
+    }
+  }

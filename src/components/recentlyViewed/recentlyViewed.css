@@ -1,0 +1,31 @@
+.movie-cover{
+    width: 100%;
+    border-radius: 1rem;
+}
+.movie-card{
+    padding: 5%;
+    border: 1px solid #1f2123;
+    border-radius: 3%;
+    cursor: pointer;
+}
+.title-recently{
+  margin-left: 1rem;
+}
+.recently{
+    margin: 1rem;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+@media screen and (max-width: 968px) {
+    .recently {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+@media screen and (max-width: 576px) {
+    .recently {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  
