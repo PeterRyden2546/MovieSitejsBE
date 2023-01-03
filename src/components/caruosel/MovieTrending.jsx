@@ -14,7 +14,7 @@ function MovieTrending({movieTrending}) {
     const returnId = () => {
       setApiId(movieTrending.id)
       scrollTo({ top: 200, left: 0, behavior: "smooth" })
-      if(recently.length === 5){
+      if(recently.length >= 5){
         recently.splice(-1, 1)
         const newRecently = [movieTrending, ...recently];
        setRecently(newRecently)

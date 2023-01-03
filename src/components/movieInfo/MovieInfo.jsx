@@ -56,7 +56,7 @@ function MovieInfo() {
     <>
       {apiId ?<div className='container-movieinfo' 
       style={{ backgroundImage: `url("${imagePath}${movie.backdrop_path}")`,
-      backgroundRepeat: 'no-repeat',}} >
+      backgroundRepeat: 'no-repeat', width: '70%'}} >
         {movie.videos && showTrailer ? playTrailer() : null} 
         {showTrailer ? <button className='close-trailer' onClick={() => setShowTrailer(false)}>&#10008;</button> : null}
         <div className='movieinfo-items'>
